@@ -78,8 +78,8 @@ def mostrarEstudiantes():
         print("Lista de estudiantes matriculados")
         for estudiante in estudiantes:
             print(f"Estudiante: {estudiante['nombre']}, Curso: {estudiante['curso']}")
-        else:
-            print("No hay estudiantes matriculados")
+    else:
+        print("No hay estudiantes matriculados")
 
 
 # Función para mostrar los docentes asignados
@@ -88,8 +88,8 @@ def mostrarDocentes():
         print("Lista de docentes asignados")
         for docente in docentes:
             print(f"Docente: {docente['nombre']}, Curso: {docente['curso']}")
-        else:
-            print("No hay docentes asignados")
+    else:
+        print("No hay docentes asignados")
 
 
 # Función para mostrar los docentes asignados
@@ -98,10 +98,10 @@ def mostrarHorarios():
         print("\nHorarios de los cursos")
         for horario in horarios:
             print(
-                f"Horario: {horario['nombre']}, Días: {horario['dias']}, Hora: {horario['hora']}"
+                f"Curso: {horario['curso']}, Días: {horario['dias']}, Hora: {horario['hora']}"
             )
-        else:
-            print("No hay horarios asignados")
+    else:
+        print("No hay horarios asignados")
 
 
 while True:
@@ -127,7 +127,7 @@ while True:
     elif opcion == 5:
         mostrarDocentes()
     elif opcion == 6:
-        mostrarHorarios
+        mostrarHorarios()
     elif opcion == 7:
         print("Gracias por utilizar  el sistema de matrículas")
         break
