@@ -1,0 +1,10 @@
+Nombre: Estudiar Python
+Fecha limite: 18/11/2024
+Categoria: Estudio
+Horas dedicadas: [5.0, 4.0, 3.0]
+
+Nombre: descansar
+Fecha limite: 14/11/2024
+Categoria: Personal
+Horas dedicadas: [8.0, 5.0, 4.0]
+
