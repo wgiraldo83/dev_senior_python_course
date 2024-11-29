@@ -1,5 +1,0 @@
-Nombre: Hacer el reto de Python
-Fecha límite: 27/11/2024
-Categoría: Estudio
-Horas dedicadas: [3.0, 5.0, 7.0]
-
